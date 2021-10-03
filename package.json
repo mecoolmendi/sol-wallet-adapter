@@ -6,9 +6,7 @@
   "repository": "project-serum/sol-wallet-adapter",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "engines": {
-    "node": ">=10"
-  },
+  "engines":` { "node": "14.x" },
   "scripts": {
     "build": "rm -rf dist && tsc -P tsconfig.build.json && tsc -P tsconfig.esm.json",
     "start": "tsc --watch",
